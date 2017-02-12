@@ -14,6 +14,10 @@
 		66002DBE1E0A5E8200BB4159 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66002DBC1E0A5E8200BB4159 /* LaunchScreen.storyboard */; };
 		66002DC91E0A5E8200BB4159 /* NICTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66002DC81E0A5E8200BB4159 /* NICTests.swift */; };
 		66002DD41E0A5E8200BB4159 /* NICUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66002DD31E0A5E8200BB4159 /* NICUITests.swift */; };
+		6643AC5B1E27F56300D5AD3B /* NIC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6643AC5A1E27F56300D5AD3B /* NIC.swift */; };
+		667C92361E24DECF00CECB5C /* Scrap.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 667C92351E24DECF00CECB5C /* Scrap.jpg */; };
+		667C92381E24E17700CECB5C /* wooden.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 667C92371E24E17700CECB5C /* wooden.jpg */; };
+		667C923A1E24E2A800CECB5C /* chicken-biryani.png in Resources */ = {isa = PBXBuildFile; fileRef = 667C92391E24E2A800CECB5C /* chicken-biryani.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		66002DCF1E0A5E8200BB4159 /* NICUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NICUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		66002DD31E0A5E8200BB4159 /* NICUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NICUITests.swift; sourceTree = "<group>"; };
 		66002DD51E0A5E8200BB4159 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6643AC5A1E27F56300D5AD3B /* NIC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NIC.swift; sourceTree = "<group>"; };
+		667C92351E24DECF00CECB5C /* Scrap.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Scrap.jpg; path = ../../../Documents/Scrap.jpg; sourceTree = "<group>"; };
+		667C92371E24E17700CECB5C /* wooden.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = wooden.jpg; path = ../../../Documents/wooden.jpg; sourceTree = "<group>"; };
+		667C92391E24E2A800CECB5C /* chicken-biryani.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "chicken-biryani.png"; path = "../../../Documents/chicken-biryani.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +107,14 @@
 			children = (
 				66002DB31E0A5E8200BB4159 /* AppDelegate.swift */,
 				66002DB51E0A5E8200BB4159 /* ViewController.swift */,
+				667C92351E24DECF00CECB5C /* Scrap.jpg */,
+				667C92391E24E2A800CECB5C /* chicken-biryani.png */,
+				667C92371E24E17700CECB5C /* wooden.jpg */,
 				66002DB71E0A5E8200BB4159 /* Main.storyboard */,
 				66002DBA1E0A5E8200BB4159 /* Assets.xcassets */,
 				66002DBC1E0A5E8200BB4159 /* LaunchScreen.storyboard */,
 				66002DBF1E0A5E8200BB4159 /* Info.plist */,
+				6643AC5A1E27F56300D5AD3B /* NIC.swift */,
 			);
 			path = NIC;
 			sourceTree = "<group>";
@@ -237,7 +249,10 @@
 			files = (
 				66002DBE1E0A5E8200BB4159 /* LaunchScreen.storyboard in Resources */,
 				66002DBB1E0A5E8200BB4159 /* Assets.xcassets in Resources */,
+				667C92361E24DECF00CECB5C /* Scrap.jpg in Resources */,
 				66002DB91E0A5E8200BB4159 /* Main.storyboard in Resources */,
+				667C923A1E24E2A800CECB5C /* chicken-biryani.png in Resources */,
+				667C92381E24E17700CECB5C /* wooden.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +279,7 @@
 			files = (
 				66002DB61E0A5E8200BB4159 /* ViewController.swift in Sources */,
 				66002DB41E0A5E8200BB4159 /* AppDelegate.swift in Sources */,
+				6643AC5B1E27F56300D5AD3B /* NIC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,6 +431,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 8UM946Q2E5;
 				INFOPLIST_FILE = NIC/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = nic.zuhry.com.NIC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -428,6 +445,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 8UM946Q2E5;
 				INFOPLIST_FILE = NIC/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = nic.zuhry.com.NIC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -512,6 +530,7 @@
 				66002DDA1E0A5E8200BB4159 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		66002DDB1E0A5E8200BB4159 /* Build configuration list for PBXNativeTarget "NICTests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +539,7 @@
 				66002DDD1E0A5E8200BB4159 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		66002DDE1E0A5E8200BB4159 /* Build configuration list for PBXNativeTarget "NICUITests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +548,7 @@
 				66002DE01E0A5E8200BB4159 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
