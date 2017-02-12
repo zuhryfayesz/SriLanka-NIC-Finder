@@ -48,8 +48,7 @@ class NIC {
         }
         let day = String(da)
         let myArray = [monthTag[mo], day]
-        return myArray
-    }
+        return myArray     }
     
     // Get Gender from NIC String
     func getGender (nic: String) -> String {
