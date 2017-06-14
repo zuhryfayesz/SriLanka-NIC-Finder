@@ -13,11 +13,8 @@ class ViewController: UIViewController {
     @IBOutlet weak var nicLabel: UILabel!
     @IBOutlet weak var nicText: UITextField!
     @IBOutlet weak var currentDate: UILabel!
-    
     // Find NIC details button action
     @IBAction func nic(_ sender: UIButton) {
-        
-        
         let nicValue = nicText.text!
         let nic = NIC()
         let daymonth = nic.getMyDayMonth(myDay: nic.getDays(nic: nicValue))
@@ -34,7 +31,6 @@ class ViewController: UIViewController {
         let background  = UIImageView(frame: UIScreen.main.bounds)
         background.image = UIImage(named: "wooden.jpg")
         self.view.insertSubview(background, at: 0)
-        
     }
 
     override func didReceiveMemoryWarning() {
