@@ -11,7 +11,7 @@ import Foundation
 class NIC {
 
     var month:    [Int]     = [31, 29, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
-    var monthTag: [String]  = ["", "January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+    var monthTag: [String]  = ["", "January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
     
     // Get Birth Year from NIC String
     func getYear(nic: String) -> Int {
