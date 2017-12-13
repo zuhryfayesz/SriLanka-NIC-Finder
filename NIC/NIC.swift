@@ -14,8 +14,8 @@ class NIC {
     var monthTag: [String]  = ["", "January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
     // Get Birth Year from NIC String
     func getYear(nic: String) -> Int {
-       // let nicString = String(nic.characters.prefix(2))
-        let nicString =   String(describing: nic.prefix(2)) 
+        // let nicString = String(nic.characters.prefix(2)) Swift 3
+        let nicString =   String(describing: nic.prefix(2)) // SWift 4
         let numberNic = Int(nicString)
         let year      = 1900 + numberNic!
         return year
