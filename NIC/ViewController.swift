@@ -17,7 +17,6 @@ class ViewController: UIViewController {
     // Find NIC details button action
     @IBAction func nic(_ sender: UIButton) {
         
-        
         let nicValue = nicText.text!
         let nic = NIC()
         let daymonth = nic.getMyDayMonth(myDay: nic.getDays(nic: nicValue))
@@ -29,12 +28,20 @@ class ViewController: UIViewController {
     }
     
     override func viewDidLoad() {
+        
         super.viewDidLoad()
         // Load a custom background image
         let background  = UIImageView(frame: UIScreen.main.bounds)
         background.image = UIImage(named: "wooden.jpg")
         self.view.insertSubview(background, at: 0)
         
+        let tap = UITapGestureRecognizer(target: self, action: #selector(doubleTapped))
+        view.addGestureRecognizer(tap)
+        
+    }
+    
+    func doubleTapped() {
+        view.endEditing(true)
     }
 
     override func didReceiveMemoryWarning() {

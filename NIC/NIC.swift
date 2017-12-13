@@ -15,7 +15,8 @@ class NIC {
     
     // Get Birth Year from NIC String
     func getYear(nic: String) -> Int {
-        let nicString = String(nic.characters.prefix(2))
+       // let nicString = String(nic.characters.prefix(2))
+        let nicString =   String(describing: nic.prefix(2))
         let numberNic = Int(nicString)
         let year      = 1900 + numberNic!
         return year

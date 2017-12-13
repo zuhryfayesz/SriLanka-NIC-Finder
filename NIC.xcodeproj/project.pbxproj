@@ -17,7 +17,6 @@
 		6643AC5B1E27F56300D5AD3B /* NIC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6643AC5A1E27F56300D5AD3B /* NIC.swift */; };
 		667C92361E24DECF00CECB5C /* Scrap.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 667C92351E24DECF00CECB5C /* Scrap.jpg */; };
 		667C92381E24E17700CECB5C /* wooden.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 667C92371E24E17700CECB5C /* wooden.jpg */; };
-		667C923A1E24E2A800CECB5C /* chicken-biryani.png in Resources */ = {isa = PBXBuildFile; fileRef = 667C92391E24E2A800CECB5C /* chicken-biryani.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,7 +53,6 @@
 		6643AC5A1E27F56300D5AD3B /* NIC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NIC.swift; sourceTree = "<group>"; };
 		667C92351E24DECF00CECB5C /* Scrap.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Scrap.jpg; path = ../../../Documents/Scrap.jpg; sourceTree = "<group>"; };
 		667C92371E24E17700CECB5C /* wooden.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = wooden.jpg; path = ../../../Documents/wooden.jpg; sourceTree = "<group>"; };
-		667C92391E24E2A800CECB5C /* chicken-biryani.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "chicken-biryani.png"; path = "../../../Documents/chicken-biryani.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,7 +106,6 @@
 				66002DB31E0A5E8200BB4159 /* AppDelegate.swift */,
 				66002DB51E0A5E8200BB4159 /* ViewController.swift */,
 				667C92351E24DECF00CECB5C /* Scrap.jpg */,
-				667C92391E24E2A800CECB5C /* chicken-biryani.png */,
 				667C92371E24E17700CECB5C /* wooden.jpg */,
 				66002DB71E0A5E8200BB4159 /* Main.storyboard */,
 				66002DBA1E0A5E8200BB4159 /* Assets.xcassets */,
@@ -251,7 +248,6 @@
 				66002DBB1E0A5E8200BB4159 /* Assets.xcassets in Resources */,
 				667C92361E24DECF00CECB5C /* Scrap.jpg in Resources */,
 				66002DB91E0A5E8200BB4159 /* Main.storyboard in Resources */,
-				667C923A1E24E2A800CECB5C /* chicken-biryani.png in Resources */,
 				667C92381E24E17700CECB5C /* wooden.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
