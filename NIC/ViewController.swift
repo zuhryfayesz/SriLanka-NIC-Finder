@@ -21,7 +21,7 @@ class ViewController: UIViewController {
         let daymonth = nic.getMyDayMonth(myDay: nic.getDays(nic: nicValue))
         print("Age   :", nic.getAge(nic: nicValue))
         print("Gender:", nic.getGender(nic: nicValue))
-        print("Day   :", daymonth[1])
+        print("Day   :", daymonth[1]) 
         print("Month :", daymonth[0])
         print("Year  :", nic.getYear(nic: nicValue))
     }
