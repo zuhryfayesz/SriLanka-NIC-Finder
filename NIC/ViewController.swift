@@ -13,7 +13,6 @@ class ViewController: UIViewController {
     @IBOutlet weak var nicLabel: UILabel!
     @IBOutlet weak var nicText: UITextField!
     @IBOutlet weak var currentDate: UILabel!
-    
     // Find NIC details button action
     @IBAction func nic(_ sender: UIButton) {
         

@@ -11,8 +11,7 @@ import Foundation
 class NIC {
 
     var month:    [Int]     = [31, 29, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
-    var monthTag: [String]  = ["", "January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
-    
+    var monthTag: [String]  = ["", "January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
     // Get Birth Year from NIC String
     func getYear(nic: String) -> Int {
        // let nicString = String(nic.characters.prefix(2))
@@ -34,9 +33,9 @@ class NIC {
     }
     
     // Get the Birth Day and Month -> Return a Array of Strings
-    func getMyDayMonth(myDay: Int) -> [String]  {
-        var mo   = 0;
-        var da   = 0;
+    func getMyDayMonth(myDay: Int) -> [String] {
+        var mo   = 0
+        var da   = 0
         var days = myDay
         for i in 0 ..< month.count {
             if days < month[i] {
@@ -44,7 +43,7 @@ class NIC {
                 da = days
                 break
             } else {
-                days = days - month[i];
+                days = days - month[i]
             }
         }
         let day = String(da)
